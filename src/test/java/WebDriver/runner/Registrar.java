@@ -5,15 +5,15 @@ import org.junit.Test;
 import WebDriver.Enum.EnumBrowser;
 import WebDriver.common.ExecutionDriver;
 
-public class Teste extends ExecutionDriver {
+public class Registrar extends ExecutionDriver {
 
-	public Teste() {
+	public Registrar() {
 		executionBrowser(EnumBrowser.CHROME);
 	}
 
 	@Test
-	public void Teste() {
-
+	public void registro() {
+		
 	}
 
 }
